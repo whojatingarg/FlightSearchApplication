@@ -1,6 +1,6 @@
 package com.nagarro.test;
 
-import com.nagarro.services.AdditionService;
+import com.nagarro.services.LoginService;
 
 import junit.framework.*;
 
