@@ -17,6 +17,6 @@ public class AppTest extends TestCase {
 	}
 	
 	public void testNegativeSum() {
-		assertEquals(false, additionService.addNumbers("yash", "none"));
+		assertEquals(false, loginService.validateUser("yash", "none"));
 	}
 }
