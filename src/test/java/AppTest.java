@@ -1,4 +1,3 @@
-package com.nagarro.test;
 
 import com.nagarro.services.LoginService;
 
@@ -12,11 +11,11 @@ public class AppTest extends TestCase {
 		super(name);
 	}
 
-	public void testSum() {
+	public void testValidUser() {
 		assertEquals(true, loginService.validateUser("jatin", "pass"));
 	}
 	
-	public void testNegativeSum() {
+	public void testNonValidUser() {
 		assertEquals(false, loginService.validateUser("yash", "none"));
 	}
 }
